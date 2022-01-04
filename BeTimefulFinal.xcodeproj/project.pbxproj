@@ -1,0 +1,968 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7ADEAF452783DC6000721AAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEAF442783DC6000721AAF /* AppDelegate.swift */; };
+		7ADEAF472783DC6000721AAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEAF462783DC6000721AAF /* SceneDelegate.swift */; };
+		7ADEAF4A2783DC6000721AAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF482783DC6000721AAF /* LaunchScreen.storyboard */; };
+		7ADEAF4D2783DC6000721AAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF4B2783DC6000721AAF /* Main.storyboard */; };
+		7ADEAF562783DC6000721AAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEAF552783DC6000721AAF /* AppDelegate.swift */; };
+		7ADEAF592783DC6000721AAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF572783DC6000721AAF /* Main.storyboard */; };
+		7ADEAF602783DC6000721AAF /* BeTimefulFinal Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7ADEAF5F2783DC6000721AAF /* BeTimefulFinal Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7ADEAF6A2783DC6000721AAF /* BeTimefulFinal Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7ADEAF692783DC6000721AAF /* BeTimefulFinal Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7ADEAF702783DC6000721AAF /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF2B2783DC5D00721AAF /* Main.html */; };
+		7ADEAF712783DC6000721AAF /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF2B2783DC5D00721AAF /* Main.html */; };
+		7ADEAF722783DC6000721AAF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF2D2783DC5D00721AAF /* Icon.png */; };
+		7ADEAF732783DC6000721AAF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF2D2783DC5D00721AAF /* Icon.png */; };
+		7ADEAF742783DC6000721AAF /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF2E2783DC5D00721AAF /* Style.css */; };
+		7ADEAF752783DC6000721AAF /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF2E2783DC5D00721AAF /* Style.css */; };
+		7ADEAF762783DC6000721AAF /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF2F2783DC5D00721AAF /* Script.js */; };
+		7ADEAF772783DC6000721AAF /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF2F2783DC5D00721AAF /* Script.js */; };
+		7ADEAF782783DC6000721AAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEAF302783DC5D00721AAF /* ViewController.swift */; };
+		7ADEAF792783DC6000721AAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEAF302783DC5D00721AAF /* ViewController.swift */; };
+		7ADEAF7A2783DC6000721AAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF312783DC6000721AAF /* Assets.xcassets */; };
+		7ADEAF7B2783DC6000721AAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF312783DC6000721AAF /* Assets.xcassets */; };
+		7ADEAF7C2783DC6000721AAF /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEAF332783DC6000721AAF /* SafariWebExtensionHandler.swift */; };
+		7ADEAF7D2783DC6000721AAF /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEAF332783DC6000721AAF /* SafariWebExtensionHandler.swift */; };
+		7ADEAF7E2783DC6000721AAF /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF352783DC6000721AAF /* _locales */; };
+		7ADEAF7F2783DC6000721AAF /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF352783DC6000721AAF /* _locales */; };
+		7ADEAF802783DC6000721AAF /* images in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF362783DC6000721AAF /* images */; };
+		7ADEAF812783DC6000721AAF /* images in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF362783DC6000721AAF /* images */; };
+		7ADEAF822783DC6000721AAF /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF372783DC6000721AAF /* manifest.json */; };
+		7ADEAF832783DC6000721AAF /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF372783DC6000721AAF /* manifest.json */; };
+		7ADEAF842783DC6000721AAF /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF382783DC6000721AAF /* background.js */; };
+		7ADEAF852783DC6000721AAF /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF382783DC6000721AAF /* background.js */; };
+		7ADEAF862783DC6000721AAF /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF392783DC6000721AAF /* content.js */; };
+		7ADEAF872783DC6000721AAF /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF392783DC6000721AAF /* content.js */; };
+		7ADEAF882783DC6000721AAF /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF3A2783DC6000721AAF /* popup.html */; };
+		7ADEAF892783DC6000721AAF /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF3A2783DC6000721AAF /* popup.html */; };
+		7ADEAF8A2783DC6000721AAF /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF3B2783DC6000721AAF /* popup.css */; };
+		7ADEAF8B2783DC6000721AAF /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF3B2783DC6000721AAF /* popup.css */; };
+		7ADEAF8C2783DC6000721AAF /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF3C2783DC6000721AAF /* popup.js */; };
+		7ADEAF8D2783DC6000721AAF /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF3C2783DC6000721AAF /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7ADEAF612783DC6000721AAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ADEAF252783DC5D00721AAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ADEAF5E2783DC6000721AAF;
+			remoteInfo = "BeTimefulFinal Extension (iOS)";
+		};
+		7ADEAF6B2783DC6000721AAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ADEAF252783DC5D00721AAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ADEAF682783DC6000721AAF;
+			remoteInfo = "BeTimefulFinal Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7ADEAF932783DC6000721AAF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7ADEAF602783DC6000721AAF /* BeTimefulFinal Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADEAF9A2783DC6000721AAF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7ADEAF6A2783DC6000721AAF /* BeTimefulFinal Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7ADEAF2C2783DC5D00721AAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		7ADEAF2D2783DC5D00721AAF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		7ADEAF2E2783DC5D00721AAF /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		7ADEAF2F2783DC5D00721AAF /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		7ADEAF302783DC5D00721AAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7ADEAF312783DC6000721AAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7ADEAF332783DC6000721AAF /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		7ADEAF352783DC6000721AAF /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		7ADEAF362783DC6000721AAF /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		7ADEAF372783DC6000721AAF /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		7ADEAF382783DC6000721AAF /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		7ADEAF392783DC6000721AAF /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		7ADEAF3A2783DC6000721AAF /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		7ADEAF3B2783DC6000721AAF /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		7ADEAF3C2783DC6000721AAF /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		7ADEAF412783DC6000721AAF /* BeTimefulFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeTimefulFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ADEAF442783DC6000721AAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7ADEAF462783DC6000721AAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7ADEAF492783DC6000721AAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7ADEAF4C2783DC6000721AAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7ADEAF4E2783DC6000721AAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ADEAF532783DC6000721AAF /* BeTimefulFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeTimefulFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ADEAF552783DC6000721AAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7ADEAF582783DC6000721AAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7ADEAF5A2783DC6000721AAF /* BeTimefulFinal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BeTimefulFinal.entitlements; sourceTree = "<group>"; };
+		7ADEAF5F2783DC6000721AAF /* BeTimefulFinal Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BeTimefulFinal Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ADEAF642783DC6000721AAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ADEAF692783DC6000721AAF /* BeTimefulFinal Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BeTimefulFinal Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ADEAF6E2783DC6000721AAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ADEAF6F2783DC6000721AAF /* BeTimefulFinal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BeTimefulFinal.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ADEAF3E2783DC6000721AAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADEAF502783DC6000721AAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADEAF5C2783DC6000721AAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADEAF662783DC6000721AAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7ADEAF242783DC5D00721AAF = {
+			isa = PBXGroup;
+			children = (
+				7ADEAF292783DC5D00721AAF /* Shared (App) */,
+				7ADEAF322783DC6000721AAF /* Shared (Extension) */,
+				7ADEAF432783DC6000721AAF /* iOS (App) */,
+				7ADEAF542783DC6000721AAF /* macOS (App) */,
+				7ADEAF632783DC6000721AAF /* iOS (Extension) */,
+				7ADEAF6D2783DC6000721AAF /* macOS (Extension) */,
+				7ADEAF422783DC6000721AAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7ADEAF292783DC5D00721AAF /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				7ADEAF302783DC5D00721AAF /* ViewController.swift */,
+				7ADEAF312783DC6000721AAF /* Assets.xcassets */,
+				7ADEAF2A2783DC5D00721AAF /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		7ADEAF2A2783DC5D00721AAF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7ADEAF2B2783DC5D00721AAF /* Main.html */,
+				7ADEAF2D2783DC5D00721AAF /* Icon.png */,
+				7ADEAF2E2783DC5D00721AAF /* Style.css */,
+				7ADEAF2F2783DC5D00721AAF /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7ADEAF322783DC6000721AAF /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				7ADEAF332783DC6000721AAF /* SafariWebExtensionHandler.swift */,
+				7ADEAF342783DC6000721AAF /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		7ADEAF342783DC6000721AAF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7ADEAF352783DC6000721AAF /* _locales */,
+				7ADEAF362783DC6000721AAF /* images */,
+				7ADEAF372783DC6000721AAF /* manifest.json */,
+				7ADEAF382783DC6000721AAF /* background.js */,
+				7ADEAF392783DC6000721AAF /* content.js */,
+				7ADEAF3A2783DC6000721AAF /* popup.html */,
+				7ADEAF3B2783DC6000721AAF /* popup.css */,
+				7ADEAF3C2783DC6000721AAF /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7ADEAF422783DC6000721AAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ADEAF412783DC6000721AAF /* BeTimefulFinal.app */,
+				7ADEAF532783DC6000721AAF /* BeTimefulFinal.app */,
+				7ADEAF5F2783DC6000721AAF /* BeTimefulFinal Extension.appex */,
+				7ADEAF692783DC6000721AAF /* BeTimefulFinal Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7ADEAF432783DC6000721AAF /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				7ADEAF442783DC6000721AAF /* AppDelegate.swift */,
+				7ADEAF462783DC6000721AAF /* SceneDelegate.swift */,
+				7ADEAF482783DC6000721AAF /* LaunchScreen.storyboard */,
+				7ADEAF4B2783DC6000721AAF /* Main.storyboard */,
+				7ADEAF4E2783DC6000721AAF /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		7ADEAF542783DC6000721AAF /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				7ADEAF552783DC6000721AAF /* AppDelegate.swift */,
+				7ADEAF572783DC6000721AAF /* Main.storyboard */,
+				7ADEAF5A2783DC6000721AAF /* BeTimefulFinal.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		7ADEAF632783DC6000721AAF /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				7ADEAF642783DC6000721AAF /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		7ADEAF6D2783DC6000721AAF /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				7ADEAF6E2783DC6000721AAF /* Info.plist */,
+				7ADEAF6F2783DC6000721AAF /* BeTimefulFinal.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7ADEAF402783DC6000721AAF /* BeTimefulFinal (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ADEAF942783DC6000721AAF /* Build configuration list for PBXNativeTarget "BeTimefulFinal (iOS)" */;
+			buildPhases = (
+				7ADEAF3D2783DC6000721AAF /* Sources */,
+				7ADEAF3E2783DC6000721AAF /* Frameworks */,
+				7ADEAF3F2783DC6000721AAF /* Resources */,
+				7ADEAF932783DC6000721AAF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ADEAF622783DC6000721AAF /* PBXTargetDependency */,
+			);
+			name = "BeTimefulFinal (iOS)";
+			productName = "BeTimefulFinal (iOS)";
+			productReference = 7ADEAF412783DC6000721AAF /* BeTimefulFinal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7ADEAF522783DC6000721AAF /* BeTimefulFinal (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ADEAF9B2783DC6000721AAF /* Build configuration list for PBXNativeTarget "BeTimefulFinal (macOS)" */;
+			buildPhases = (
+				7ADEAF4F2783DC6000721AAF /* Sources */,
+				7ADEAF502783DC6000721AAF /* Frameworks */,
+				7ADEAF512783DC6000721AAF /* Resources */,
+				7ADEAF9A2783DC6000721AAF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ADEAF6C2783DC6000721AAF /* PBXTargetDependency */,
+			);
+			name = "BeTimefulFinal (macOS)";
+			productName = "BeTimefulFinal (macOS)";
+			productReference = 7ADEAF532783DC6000721AAF /* BeTimefulFinal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7ADEAF5E2783DC6000721AAF /* BeTimefulFinal Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ADEAF902783DC6000721AAF /* Build configuration list for PBXNativeTarget "BeTimefulFinal Extension (iOS)" */;
+			buildPhases = (
+				7ADEAF5B2783DC6000721AAF /* Sources */,
+				7ADEAF5C2783DC6000721AAF /* Frameworks */,
+				7ADEAF5D2783DC6000721AAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BeTimefulFinal Extension (iOS)";
+			productName = "BeTimefulFinal Extension (iOS)";
+			productReference = 7ADEAF5F2783DC6000721AAF /* BeTimefulFinal Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		7ADEAF682783DC6000721AAF /* BeTimefulFinal Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ADEAF972783DC6000721AAF /* Build configuration list for PBXNativeTarget "BeTimefulFinal Extension (macOS)" */;
+			buildPhases = (
+				7ADEAF652783DC6000721AAF /* Sources */,
+				7ADEAF662783DC6000721AAF /* Frameworks */,
+				7ADEAF672783DC6000721AAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BeTimefulFinal Extension (macOS)";
+			productName = "BeTimefulFinal Extension (macOS)";
+			productReference = 7ADEAF692783DC6000721AAF /* BeTimefulFinal Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ADEAF252783DC5D00721AAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7ADEAF402783DC6000721AAF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					7ADEAF522783DC6000721AAF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					7ADEAF5E2783DC6000721AAF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					7ADEAF682783DC6000721AAF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7ADEAF282783DC5D00721AAF /* Build configuration list for PBXProject "BeTimefulFinal" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7ADEAF242783DC5D00721AAF;
+			productRefGroup = 7ADEAF422783DC6000721AAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7ADEAF402783DC6000721AAF /* BeTimefulFinal (iOS) */,
+				7ADEAF522783DC6000721AAF /* BeTimefulFinal (macOS) */,
+				7ADEAF5E2783DC6000721AAF /* BeTimefulFinal Extension (iOS) */,
+				7ADEAF682783DC6000721AAF /* BeTimefulFinal Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7ADEAF3F2783DC6000721AAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADEAF722783DC6000721AAF /* Icon.png in Resources */,
+				7ADEAF4A2783DC6000721AAF /* LaunchScreen.storyboard in Resources */,
+				7ADEAF702783DC6000721AAF /* Main.html in Resources */,
+				7ADEAF762783DC6000721AAF /* Script.js in Resources */,
+				7ADEAF7A2783DC6000721AAF /* Assets.xcassets in Resources */,
+				7ADEAF4D2783DC6000721AAF /* Main.storyboard in Resources */,
+				7ADEAF742783DC6000721AAF /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADEAF512783DC6000721AAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADEAF732783DC6000721AAF /* Icon.png in Resources */,
+				7ADEAF752783DC6000721AAF /* Style.css in Resources */,
+				7ADEAF592783DC6000721AAF /* Main.storyboard in Resources */,
+				7ADEAF772783DC6000721AAF /* Script.js in Resources */,
+				7ADEAF7B2783DC6000721AAF /* Assets.xcassets in Resources */,
+				7ADEAF712783DC6000721AAF /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADEAF5D2783DC6000721AAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADEAF842783DC6000721AAF /* background.js in Resources */,
+				7ADEAF8A2783DC6000721AAF /* popup.css in Resources */,
+				7ADEAF882783DC6000721AAF /* popup.html in Resources */,
+				7ADEAF802783DC6000721AAF /* images in Resources */,
+				7ADEAF822783DC6000721AAF /* manifest.json in Resources */,
+				7ADEAF7E2783DC6000721AAF /* _locales in Resources */,
+				7ADEAF862783DC6000721AAF /* content.js in Resources */,
+				7ADEAF8C2783DC6000721AAF /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADEAF672783DC6000721AAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADEAF852783DC6000721AAF /* background.js in Resources */,
+				7ADEAF8B2783DC6000721AAF /* popup.css in Resources */,
+				7ADEAF892783DC6000721AAF /* popup.html in Resources */,
+				7ADEAF812783DC6000721AAF /* images in Resources */,
+				7ADEAF832783DC6000721AAF /* manifest.json in Resources */,
+				7ADEAF7F2783DC6000721AAF /* _locales in Resources */,
+				7ADEAF872783DC6000721AAF /* content.js in Resources */,
+				7ADEAF8D2783DC6000721AAF /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ADEAF3D2783DC6000721AAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADEAF782783DC6000721AAF /* ViewController.swift in Sources */,
+				7ADEAF452783DC6000721AAF /* AppDelegate.swift in Sources */,
+				7ADEAF472783DC6000721AAF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADEAF4F2783DC6000721AAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADEAF792783DC6000721AAF /* ViewController.swift in Sources */,
+				7ADEAF562783DC6000721AAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADEAF5B2783DC6000721AAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADEAF7C2783DC6000721AAF /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADEAF652783DC6000721AAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADEAF7D2783DC6000721AAF /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7ADEAF622783DC6000721AAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ADEAF5E2783DC6000721AAF /* BeTimefulFinal Extension (iOS) */;
+			targetProxy = 7ADEAF612783DC6000721AAF /* PBXContainerItemProxy */;
+		};
+		7ADEAF6C2783DC6000721AAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ADEAF682783DC6000721AAF /* BeTimefulFinal Extension (macOS) */;
+			targetProxy = 7ADEAF6B2783DC6000721AAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7ADEAF2B2783DC5D00721AAF /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ADEAF2C2783DC5D00721AAF /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		7ADEAF482783DC6000721AAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ADEAF492783DC6000721AAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7ADEAF4B2783DC6000721AAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ADEAF4C2783DC6000721AAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7ADEAF572783DC6000721AAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ADEAF582783DC6000721AAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7ADEAF8E2783DC6000721AAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7ADEAF8F2783DC6000721AAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7ADEAF912783DC6000721AAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LGA3CDCUMM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BeTimefulFinal Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anirudhkannan9.BeTimefulFinal.Extension;
+				PRODUCT_NAME = "BeTimefulFinal Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7ADEAF922783DC6000721AAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LGA3CDCUMM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BeTimefulFinal Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anirudhkannan9.BeTimefulFinal.Extension;
+				PRODUCT_NAME = "BeTimefulFinal Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7ADEAF952783DC6000721AAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LGA3CDCUMM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = BeTimefulFinal;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anirudhkannan9.BeTimefulFinal;
+				PRODUCT_NAME = BeTimefulFinal;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7ADEAF962783DC6000721AAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LGA3CDCUMM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = BeTimefulFinal;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anirudhkannan9.BeTimefulFinal;
+				PRODUCT_NAME = BeTimefulFinal;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7ADEAF982783DC6000721AAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/BeTimefulFinal.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LGA3CDCUMM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BeTimefulFinal Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anirudhkannan9.BeTimefulFinal.Extension;
+				PRODUCT_NAME = "BeTimefulFinal Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7ADEAF992783DC6000721AAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/BeTimefulFinal.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LGA3CDCUMM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BeTimefulFinal Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anirudhkannan9.BeTimefulFinal.Extension;
+				PRODUCT_NAME = "BeTimefulFinal Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7ADEAF9C2783DC6000721AAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/BeTimefulFinal.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LGA3CDCUMM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BeTimefulFinal;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anirudhkannan9.BeTimefulFinal;
+				PRODUCT_NAME = BeTimefulFinal;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7ADEAF9D2783DC6000721AAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/BeTimefulFinal.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LGA3CDCUMM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BeTimefulFinal;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anirudhkannan9.BeTimefulFinal;
+				PRODUCT_NAME = BeTimefulFinal;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7ADEAF282783DC5D00721AAF /* Build configuration list for PBXProject "BeTimefulFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ADEAF8E2783DC6000721AAF /* Debug */,
+				7ADEAF8F2783DC6000721AAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ADEAF902783DC6000721AAF /* Build configuration list for PBXNativeTarget "BeTimefulFinal Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ADEAF912783DC6000721AAF /* Debug */,
+				7ADEAF922783DC6000721AAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ADEAF942783DC6000721AAF /* Build configuration list for PBXNativeTarget "BeTimefulFinal (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ADEAF952783DC6000721AAF /* Debug */,
+				7ADEAF962783DC6000721AAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ADEAF972783DC6000721AAF /* Build configuration list for PBXNativeTarget "BeTimefulFinal Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ADEAF982783DC6000721AAF /* Debug */,
+				7ADEAF992783DC6000721AAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ADEAF9B2783DC6000721AAF /* Build configuration list for PBXNativeTarget "BeTimefulFinal (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ADEAF9C2783DC6000721AAF /* Debug */,
+				7ADEAF9D2783DC6000721AAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7ADEAF252783DC5D00721AAF /* Project object */;
+}
